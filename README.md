@@ -47,6 +47,11 @@ Alternatively, to run this application, navigate to the directory containing the
 python main.py
 ```
 
+### Exiting the virtual environment
+```bash
+deactivate
+```
+
 ## How to Use
 Start the application following the steps specified above.
 Use the GUI buttons to interact with the inventory system:
