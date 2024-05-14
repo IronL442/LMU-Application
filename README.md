@@ -12,11 +12,33 @@ This Inventory Management System is a simple GUI-based application developed in 
 - Display the value of inventory for a specific product.
 
 ## Prerequisites
-Before running this application, ensure that you have Python installed on your system. The application is built using Python 3.10.4. Additionally, tkinter needs to be installed on the system. 
+
+- **Python**: This application requires Python 3.x. Make sure you have a Python distribution installed that includes `tkinter`. This is typically included by default in many Python installations, but if you encounter issues with `tkinter`, you may need to install it manually:
+  - On Ubuntu: `sudo apt-get install python3-tk`
+  - On Fedora: `sudo dnf install python3-tkinter`
+
 
 ## Installation
 1. Clone this repository or download the source code.
 2. Ensure Python is installed on your system. You can download it from [Python's official website](https://www.python.org/downloads/).
+
+Alternatively, you can also setup a Virtual Environment.
+
+### Setting up a Python Virtual Environment
+You can set up a virtucal environment by running:
+```bash
+python3 -m venv venv
+source venv/bin/activate # On Windows use 'venv\Scripts\activate'
+pip install -r backend/requirements.txt
+```
+
+### Cloning the repository
+To clone the repository to your local machine open a terminal and run the following command:
+```bash
+cd your-local-save-location
+git clone https://github.com/IronL442/LMU-Application.git
+cd LMU-Application
+```
 
 ## Running the Application
 If you are a Windows user, just start the app.exe file to run this application.
@@ -25,8 +47,9 @@ Alternatively, to run this application, navigate to the directory containing the
 ```bash
 python inventory_system.py
 ```
+
 ## How to Use
-Start the application using the command above.
+Start the application following the steps specified above.
 Use the GUI buttons to interact with the inventory system:
 - Show Inventory: Displays current inventory.
 - Add Product: Adds a new product to the inventory.
