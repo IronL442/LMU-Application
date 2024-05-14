@@ -25,7 +25,7 @@ This Inventory Management System is a simple GUI-based application developed in 
 Alternatively, you can also setup a Virtual Environment.
 
 ### Setting up a Python Virtual Environment
-You can set up a virtucal environment by running:
+You can set up a virtual environment by running:
 ```bash
 python3 -m venv venv
 source venv/bin/activate # On Windows use 'venv\Scripts\activate'
