@@ -44,7 +44,7 @@ If you are a Windows user, just start the app.exe file to run this application.
 
 Alternatively, to run this application, navigate to the directory containing the script and run the following command:
 ```bash
-python inventory_system.py
+python main.py
 ```
 
 ## How to Use
