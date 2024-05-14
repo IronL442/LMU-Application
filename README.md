@@ -29,7 +29,6 @@ You can set up a virtual environment by running:
 ```bash
 python3 -m venv venv
 source venv/bin/activate # On Windows use 'venv\Scripts\activate'
-pip install -r backend/requirements.txt
 ```
 
 ### Cloning the repository
