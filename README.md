@@ -24,3 +24,18 @@ If you are a Windows user, just start the app.exe file to run this application.
 Alternatively, to run this application, navigate to the directory containing the script and run the following command:
 ```bash
 python inventory_system.py
+```
+## How to Use
+Start the application using the command above.
+Use the GUI buttons to interact with the inventory system:
+- Show Inventory: Displays current inventory.
+- Add Product: Adds a new product to the inventory.
+- Sell Product: Sells a specified quantity of a product.
+- Restock Product: Restocks a specified quantity of a product.
+- Show Transactions: Displays a log of all transactions.
+- Calculate Totals: Allows selection from several financial calculations.
+- Show Product Value: Displays the inventory value of a specified product.
+
+### Acknowledgements
+- This project uses the Tkinter library for the GUI implementation, which is part of Python's standard library.
+- Random data generation for initial inventory setup is achieved using Python's random module.
