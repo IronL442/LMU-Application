@@ -19,6 +19,8 @@ Before running this application, ensure that you have Python installed on your s
 2. Ensure Python is installed on your system. You can download it from [Python's official website](https://www.python.org/downloads/).
 
 ## Running the Application
-To run this application, navigate to the directory containing the script and run the following command:
+If you are a Windows user, just start the app.exe file to run this application.
+
+Alternatively, to run this application, navigate to the directory containing the script and run the following command:
 ```bash
 python inventory_system.py
