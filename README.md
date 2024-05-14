@@ -12,7 +12,7 @@ This Inventory Management System is a simple GUI-based application developed in 
 - Display the value of inventory for a specific product.
 
 ## Prerequisites
-Before running this application, ensure that you have Python installed on your system. The application is built using Python 3.x. Additionally, tkinter needs to be installed on the system. 
+Before running this application, ensure that you have Python installed on your system. The application is built using Python 3.10.4. Additionally, tkinter needs to be installed on the system. 
 
 ## Installation
 1. Clone this repository or download the source code.
